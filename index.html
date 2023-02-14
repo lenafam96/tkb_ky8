@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject list</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 700px;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .btn {
+            text-align: center;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <br>
+    <h1 style="text-align: center;">Danh sách các môn học kỳ 8</h1>
+    <br>
+    <br>
+    <br>
+    <table border=1 align="center" id="customers">
+        <tr>
+            <th>Tên môn</th>
+            <th>Google Meet</th>
+            <th>Tài liệu LMS</th>
+        </tr>
+        <tr>
+            <td>Đường lối cách mạng Đảng Cộng sản Việt nam</td>
+            <td class="btn"><button onclick="window.open('https://meet.google.com/wnn-qunk-ggr','_blank')">Meet</button>
+            <td class="btn"><button
+                    onclick="window.open('https://lms.uneti.edu.vn/course/view.php?id=19148','_blank')">LMS</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Truyền thông đa phương tiện</td>
+            <td class="btn"><button onclick="window.open('https://meet.google.com/pji-bxnq-bub','_blank')">Meet</button>
+            <td class="btn"><button
+                    onclick="window.open('https://lms.uneti.edu.vn/course/view.php?id=17459','_blank')">LMS</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
